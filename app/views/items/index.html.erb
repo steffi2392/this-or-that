@@ -1,0 +1,50 @@
+<%= javascript_include_tag "application" %>
+
+<div class="container">
+
+	<div class="header">
+		<%= image_tag("header.gif") %>
+	</div>
+	
+	<div class="menu">
+		<div class = "options">
+		<ul>
+			<li class="filler"></li>
+			<li id="random"><%= link_to image_tag("sprite_black.gif"), items_path %></li>
+			<li id="rankings"><%= link_to image_tag("sprite_black.gif"), list_items_path %></li>
+			<li class="filler"></li>
+		</ul>
+		</div>
+	</div>
+	
+	<div class="mash">
+		<ul> 
+			<li class = "left">
+				<ul class = "image">
+				<%= link_to image_tag(@item1.image_front), showleft_item_path(@item1), :method => :post %>
+				<%= link_to image_tag(@item1.image_back), showleft_item_path(@item1), :method => :post, :class => "back" %>
+				</ul>
+				<ul>
+					<li class="purchase">
+						<%= link_to image_tag('buy.gif'), @item1.link, :target => "_blank" %>
+					</li>
+				</ul>
+			</li>
+
+			<li class = "right">
+				<ul class = "image">
+				<%= link_to image_tag(@item2.image_front), showright_item_path(@item2), :method => :post, %>
+				<%= link_to image_tag(@item2.image_back), showright_item_path(@item2), :method => :post, :class => "back" %>
+				</ul>
+				<ul>
+					<li class="purchase">
+						<%= link_to image_tag('buy.gif'), @item2.link, :target => "_blank" %>
+					</li>
+				</ul>
+			</li>
+		</ul>
+		<div id = "or">
+			<%= image_tag("Or.gif") %>
+		</div>
+	</div>
+</div>
