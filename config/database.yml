@@ -21,7 +21,7 @@ test:
 production:
   adapter: postgresql
   database: SHARED_DATABASE_URL
-  username: vowarmkxel
-  password: YuZNlsvIPmw9z_LovDIK@ec2-23-23-203-225
+  username: lgspxyqvon
+  password: gMyIgrrZ9Q8GJse_gJpC
   pool: 5
   timeout: 5000
