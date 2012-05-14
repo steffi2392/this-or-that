@@ -72,6 +72,7 @@ body {
 	height: 30px;
 	color: black; 
 	padding: 10px 10px 0px 10px;
+	font-family:Helvetica,Arial,'DejaVu Sans','Liberation Sans', Freesans,sans-serif
 }
 
 .nav a:hover {
@@ -211,11 +212,17 @@ div {
 	position: relative;
 	width: 100px;
 	margin: auto;
-	//top: -400px;
+	top: 150px;
+	
 }
 
 #or img {
 	width: 100px;
+	opacity: 0.5;
+}
+
+#or img:hover {
+	opacity: 0.8;
 }
 
 .purchase {
