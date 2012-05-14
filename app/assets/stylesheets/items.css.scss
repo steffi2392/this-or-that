@@ -40,8 +40,11 @@ body {
 
 .underline {
 	width: 810px;
-	height: 10px;
-	background-color: #554F56;
+	height: 30px;
+	position: absolute
+	top: 100px;
+	// background-color: #554F56;
+	background-color: #00ffcc;
 }
 
 .menu {
