@@ -122,7 +122,7 @@ div {
 	margin: auto;
 	position: absolute;
 	top: 115px;
-	left: 50px;
+	left: 80px;
 }
 
 .front {
@@ -145,7 +145,7 @@ div {
 	overflow: hidden;
 	height: 422px;
 	position: absolute;
-	border: 10px;
+	border: 10px solid black;
 }
 
 .image img {
@@ -158,9 +158,6 @@ div {
 	.back {
 		//display: inline;
 		visibility: visible;
-	}
-	.purchase {
-		top: -415px;
 	}
 }
 
