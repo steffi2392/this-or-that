@@ -144,10 +144,18 @@ div {
 	top: 100px;
 }
 
+.front {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+}
+
 .back {
 	// display: none;
 	visibility: hidden;
 	position: absolute;
+	top: 10px;
+	left: 10px;
 	
 }
 
