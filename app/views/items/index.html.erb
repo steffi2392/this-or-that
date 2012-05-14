@@ -22,8 +22,10 @@
 		<ul> 
 			<li class = "left">
 				<ul class = "image">
+				<div class = "inner">
 				<%= link_to image_tag(@item1.image_front), showleft_item_path(@item1), :method => :post, :class => "front" %>
 				<%= link_to image_tag(@item1.image_back), showleft_item_path(@item1), :method => :post, :class => "back" %>
+				</div>
 				</ul>
 				<ul>
 					<li class="purchase">
@@ -34,8 +36,10 @@
 
 			<li class = "right">
 				<ul class = "image">
+				<div class = "inner">
 				<%= link_to image_tag(@item2.image_front), showright_item_path(@item2), :method => :post, :class => "front" %>
 				<%= link_to image_tag(@item2.image_back), showright_item_path(@item2), :method => :post, :class => "back" %>
+				</div>
 				</ul>
 				<ul>
 					<li class="purchase">
