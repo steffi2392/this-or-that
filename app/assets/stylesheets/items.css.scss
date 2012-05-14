@@ -37,11 +37,9 @@ body {
 	margin-top: 0px;
 	margin-bottom: 0px;
 	z-index: 200;
+	position: absolute;
 }
 
-.header img {
-	z-index:200;
-}
 
 .underline {
 	width: 810px;
@@ -145,9 +143,10 @@ div {
 }
 
 .back {
-	display: none;
+	// display: none;
+	visibility: hidden;
 	position: absolute;
-	//top: -427px;
+	top: -427px;
 }
 
 .image {
@@ -157,7 +156,8 @@ div {
 
 .image:hover {
 	.back {
-		display: inline;
+		//display: inline;
+		visibility: visible;
 	}
 	.purchase {
 		top: -415px;
