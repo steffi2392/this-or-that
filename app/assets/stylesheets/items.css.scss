@@ -141,9 +141,11 @@ div {
 }
 
 .image a{
-	width: 50px;
+	width: 200px;
 	overflow: hidden;
 	height: 422px;
+	position: absolute;
+	
 }
 
 .image img {
