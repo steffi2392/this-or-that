@@ -76,8 +76,7 @@ body {
 .nav a:hover {
 	color: black;
 	background-color: #00ffcc;
-	width: 50px;
-	height: 30px;
+	padding: 50px;
 }
 
 
@@ -88,35 +87,11 @@ body {
 }
 
 
-#rankings {
-	width: 78px;
-	position: relative;
-}
-
-#random{
-	width: 78px;
-	position: relative;
-}
-
-#random a{
-	position: relative;
-	top: -32px;
-}
 
 .filler {
 	width: 300px;
 	height: 32px;
 	background-color: black;
-}
-
-
-.menu img {
-	width: 158px;
-}
-
-.menu a:hover {
-	position: relative;
-	left: -79px;
 }
 
 
