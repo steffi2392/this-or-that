@@ -57,7 +57,7 @@ body {
 	position: absolute;
 	top: 65px;
 	z-index: 201;
-	left: 420px;
+	left: 440px;
 }
 
 .nav li{
@@ -73,6 +73,7 @@ body {
 	color: black; 
 	padding: 10px 10px 0px 10px;
 	font-family:Helvetica,Arial,'DejaVu Sans','Liberation Sans', Freesans,sans-serif
+	font-style: italic;
 }
 
 .nav a:hover {
@@ -218,7 +219,6 @@ div {
 
 #or img {
 	width: 100px;
-	opacity: 0.5;
 }
 
 #or img:hover {
