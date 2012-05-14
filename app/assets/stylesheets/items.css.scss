@@ -52,6 +52,13 @@ body {
 	background-color: #00ffcc;
 }
 
+.nav {
+	position: absolute;
+	top: 55px;
+	z-index: 201;
+	left: 400px;
+}
+
 .nav li{
 	display: inline;
 }
@@ -106,12 +113,12 @@ ul li img {
 	width: 300px;
 }
 
-mash ul {
+.mash ul {
 	list-style-type: none;
 	margin: auto;
 }
 
-mash li {
+.mash li {
 	float: left;
 	width: 300px;
 	margin: auto 20px auto 20px;
