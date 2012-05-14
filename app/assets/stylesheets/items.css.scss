@@ -62,21 +62,21 @@ body {
 
 .nav li{
 	display: inline;
-	width: 20px;
+	width: 50px;
 	height: 30px;
 	margin: 0 10px 0 10px;
 }
 
 .nav a {
-	width: 20px;
+	width: 50px;
 	height: 30px;
-	text-color: black; 
+	color: black; 
 }
 
 .nav a:hover {
-	text-color: black;
+	color: black;
 	background-color: #00ffcc;
-	width: 20px;
+	width: 50px;
 	height: 30px;
 }
 
@@ -119,16 +119,6 @@ body {
 	left: -79px;
 }
 
-.row {
-	position: relative; 
-	width: 800px;
-	margin: auto;
-}
-
-ul li img {
-	position: relative;
-	width: 300px;
-}
 
 .mash ul {
 	list-style-type: none;
@@ -199,15 +189,6 @@ div {
 	width: 200px;
 }
 
-.row {
-	width: 780px;
-}
-
-
-.row li {
-	list-style-type: none;
-}
-
 .list_purchase {
 	position: relative;
 	left: 35px;
@@ -223,11 +204,6 @@ div {
 
 .list_purchase img {
 	width: 340px;
-}
-
-.row ul {
-	display: inline-block;
-	list-style-type: none;
 }
 
 .left, .right {
