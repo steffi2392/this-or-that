@@ -36,7 +36,11 @@ body {
 	margin: auto;
 	margin-top: 0px;
 	margin-bottom: 0px;
-	z-index: 2;
+	z-index: 200;
+}
+
+.header img {
+	z-index:200;
 }
 
 .underline {
@@ -142,7 +146,7 @@ div {
 
 .back {
 	display: none;
-	position: relative;
+	position: absolute;
 	top: -427px;
 }
 
