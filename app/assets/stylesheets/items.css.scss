@@ -38,6 +38,7 @@ body {
 	margin-bottom: 0px;
 	z-index: 200;
 	position: absolute;
+	left: 5px;
 }
 
 
@@ -54,13 +55,17 @@ body {
 
 .nav {
 	position: absolute;
-	top: 55px;
+	top: 65px;
 	z-index: 201;
-	left: 400px;
+	left: 420px;
 }
 
 .nav li{
 	display: inline;
+	width: 20px;
+	height:30px;
+	margin: 0 10px 10 10px;
+	background-color: #00ffcc;
 }
 
 
