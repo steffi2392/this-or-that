@@ -140,6 +140,12 @@ div {
 	
 }
 
+.image {
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
 .image a{
 	width: 200px;
 	overflow: hidden;
