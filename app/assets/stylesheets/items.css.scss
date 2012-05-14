@@ -56,14 +56,6 @@ body {
 	display: inline;
 }
 
-.menu {
-	width: 810px;
-	height: 32px;
-	margin: auto;
-	position: relative;
-	top: -30px;
-	// background-color: black;
-}
 
 .options {
 	width: 810px;
@@ -71,12 +63,6 @@ body {
 	margin: auto;
 }
 
-.menu li {
-	height: 32px;
-	margin: 0 5px 0 5px;
-	padding: 0;
-	overflow: hidden;
-}
 
 #rankings {
 	width: 78px;
@@ -120,12 +106,12 @@ ul li img {
 	width: 300px;
 }
 
-ul {
+mash ul {
 	list-style-type: none;
 	margin: auto;
 }
 
-li {
+mash li {
 	float: left;
 	width: 300px;
 	margin: auto 20px auto 20px;
