@@ -212,11 +212,10 @@ div {
 	width: 200px;
 	height: 100px;
 	background-color: #424242;
-	color: #FFFFFF; 
+	 
 	position: relative;
 	top: 300px;
-	font-size: 24px;
-	font-family:"Special Elite", ‘Arial Black’, Gadget, sans-serif;
+
 	
 	-webkit-box-shadow: 1px 1px 1px #000;
 	-moz-box-shadow: 1px 1px 1px #000;
@@ -228,7 +227,15 @@ div {
 
 }
 
-.button:hover {
+.button a{
+	font-size: 48px;
+	font-family:"Special Elite", ‘Arial Black’, Gadget, sans-serif;	
+	color: #FFFFFF;
+	position: relative;
+	margin: auto;
+}
+
+.button a:hover {
 	color: black;
 }
 
