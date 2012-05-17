@@ -256,7 +256,7 @@ div {
 
 .list_image {
 	width: 160px;
-	height: 283px;
+	height: 282px;
 	float: left;
 	margin: 10px;
 	overflow: hidden;
@@ -270,9 +270,14 @@ div {
 }
 
 .list_rank {
-	font-family: 'Quicksand', sans-serif;
+	font-family: 'Special Elite', sans-serif;
 	width: 30px;
 	height: 30px;
-	background-color: #a3ffff;
-	position: absolute;
+	background-color: #00ffcc;
+	border: 2px solid black;
+	position: relative;
+	
+	-webkit-border-radius: 50px;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
 }
