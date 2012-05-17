@@ -1,6 +1,7 @@
 class ItemsController < ApplicationController
 
 	def index 
+		@body_id = "index"
 		@items = Item.all
 		
 		num1 = 1 + rand(@items.count)
@@ -14,6 +15,7 @@ class ItemsController < ApplicationController
 	end
 	
 	def list
+		@body_id = "list"
 		@items = Item.find(:all, :order => 'rank DESC', :limit => 12)
 		@i = 1
 		
@@ -28,6 +30,7 @@ class ItemsController < ApplicationController
 	end
 	
 	def showleft
+		@body_id = "index"
 		@item1 = Item.find(params[:id])
 		
 		@items = Item.all
@@ -43,6 +46,7 @@ class ItemsController < ApplicationController
 	end
 	
 	def showright
+		@body_id = "index"
 		@item2 = Item.find(params[:id])
 		
 		@items = Item.all
