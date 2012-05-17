@@ -214,7 +214,7 @@ div {
 	width: 100px;
 	margin: auto;
 	top: 395px;
-	
+	left: -3px;
 }
 
 #or img {
@@ -243,9 +243,14 @@ div {
 
 // LIST PAGE
 
+.list {
+	position: relative;
+	top: 100px;
+}
+
 .row {
 	position: relative;
-	width: 790px;
+	width: 700px;
 	margin: auto;
 }
 
@@ -254,6 +259,7 @@ div {
 	float: left;
 	margin: 10px;
 	overflow: hidden;
+	border: 3px solid #424242
 }
 
 .list_image img {
