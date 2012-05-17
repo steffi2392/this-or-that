@@ -276,12 +276,12 @@ div {
 	height: 30px;
 	background-color: #00ffcc;
 	border: 2px solid black;
-	position: relative;
+	position: absolute;
 	
 	-webkit-border-radius: 50px;
 	-moz-border-radius: 50%;
 	border-radius: 50%;
-	z-index: 100;
+	
 }
 
 .footer {
