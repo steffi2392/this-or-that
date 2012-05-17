@@ -240,7 +240,7 @@ div {
 	width: 200px;
 	height: 50px;
 	display: block;
-	line-height: 100px;
+	line-height: 80px;
 	vertical-align: middle;
 	
 	background-color: black;
@@ -251,7 +251,7 @@ div {
 }
 
 .button a:hover {
-	color: #00ffcc;
+	opacity: 0.8;
 }
 
 #or {
