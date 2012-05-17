@@ -234,14 +234,18 @@ div {
 	font-family:"Special Elite", ‘Arial Black’, Gadget, sans-serif;	
 	color: #FFFFFF;
 	position: relative;
-	top: 10px;
-	left: 50px;
+	top: 450px;
+	left: 0px;
 	margin: auto;
 	width: 200px;
 	height: 50px;
 	display: block;
 	
 	background-color: #424242;
+	text-align: center;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
 }
 
 .button a:hover {
