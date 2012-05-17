@@ -15,17 +15,13 @@ class ItemsController < ApplicationController
 	
 	def list
 		@items = Item.find(:all, :order => 'rank DESC', :limit => 12)
-		i = 0
-		previous = 0
+		@i = 0
+		
 		@items.each do |item|
-			if item.rank == previous
-				item.number = i
-			else 
-				item.number = i + 1
-			end
-			i = i + 1
-			previous = item.rank
+			item.number = @i
+			@i += @i
 		end
+		
 	end
 	
 	def show
