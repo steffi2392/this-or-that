@@ -261,6 +261,7 @@ div {
 	margin: 10px;
 	overflow: hidden;
 	border: 3px solid #424242
+	position: relative;
 }
 
 .list_image img {
@@ -281,4 +282,8 @@ div {
 	-moz-border-radius: 50%;
 	border-radius: 50%;
 	z-index: 100;
+}
+
+.footer {
+	height: 20px;
 }
