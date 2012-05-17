@@ -72,7 +72,7 @@ body {
 	width: 50px;
 	height: 30px;
 	color: black; 
-	padding: 10px 10px 0px 10px;
+	padding: 12px 10px 0px 10px;
 	font-family:"Special Elite", ‘Arial Black’, Gadget, sans-serif;
 }
 
@@ -183,33 +183,13 @@ div {
 	width:200px;
 }
 
-/* .button {
-	width: 200px;
-	height: 50px;
-	background-color: #424242;
-	 
-	position: relative;
-	top: 450px;
-	left: -20px;
-
-	
-	-webkit-box-shadow: 1px 1px 1px #000;
-	-moz-box-shadow: 1px 1px 1px #000;
-	box-shadow: 1px 1px 1px #000;
-	
-	-webkit-border-radius: 5px;
-	-moz-border-radius: 5px;
-	border-radius: 5px;
-
-}
-*/
 
 .button a{
 	font-size: 48px;
 	font-family:"Special Elite", ‘Arial Black’, Gadget, sans-serif;	
 	color: #FFFFFF;
 	position: relative;
-	top: 465px;
+	top: 470px;
 	left: -10px;
 	margin: auto;
 	width: 200px;
@@ -233,7 +213,7 @@ div {
 	position: relative;
 	width: 100px;
 	margin: auto;
-	top: 390px;
+	top: 395px;
 	
 }
 
@@ -265,14 +245,15 @@ div {
 
 .row {
 	position: relative;
-	width: 800px;
+	width: 790px;
 	margin: auto;
 }
 
 .list_image {
 	width: 160px;
 	float: left;
-	margin: 10px 0 10px 0;
+	margin: 10px;
+	overflow: hidden;
 }
 
 .list_image img {
