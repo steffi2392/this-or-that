@@ -14,7 +14,7 @@ class ItemsController < ApplicationController
 	end
 	
 	def list
-		@items = Item.find(:all, :order => 'rank DESC', :limit:12)
+		@items = Item.find(:all, :order => 'rank DESC', :limit => 12)
 		i = 0
 		previous = 0
 		@items.each do |item|
