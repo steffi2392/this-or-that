@@ -10,9 +10,10 @@
 				<li class = "list_image">
 					<ul>
 						<li><%= link_to image_tag(item.image_front), item.link, :target => "_blank" %></li>
+						<li class="list_rank"><%= item.number %></li>
 					</ul>
 				</li>
-				<li class="list_rank"><%= item.number %></li>
+				
 			</ul>
 		<% end %>
 	</div>
