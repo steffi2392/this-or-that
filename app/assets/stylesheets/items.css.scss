@@ -78,7 +78,7 @@ body {
 
 .nav a:hover {
 	color: black;
-	background-color: #00ffcc;
+	background-color: #13efc3;
 	//opacity: 0.8;
 }
 
@@ -281,6 +281,8 @@ div {
 	-webkit-border-radius: 50px;
 	-moz-border-radius: 50%;
 	border-radius: 50%;
+	
+	z-index:400;
 	
 }
 
