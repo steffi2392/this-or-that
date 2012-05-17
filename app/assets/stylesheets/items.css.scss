@@ -151,7 +151,8 @@ div {
 .image a{
 	width: 200px;
 	overflow: hidden;
-	height: 422px;
+	// height: 422px;
+	height: 350px;
 	position: absolute;
 	border: 10px solid #424242;
 	-webkit-border-radius: 5px;
@@ -164,7 +165,8 @@ div {
 }
 
 .image img {
-	width: 300px;
+	// width: 300px;
+	width: 250px;
 	position: relative;
 	left: -50px;
 }
@@ -284,7 +286,7 @@ div {
 	
 	z-index:400;
 	
-	top: -270px;
+	top: -285px;
 	left: 10px;
 	
 }
