@@ -15,7 +15,7 @@ class ItemsController < ApplicationController
 	
 	def list
 		@items = Item.find(:all, :order => 'rank DESC', :limit => 12)
-		@i = 0
+		@i = 1
 		
 		@items.each do |item|
 			item.number = @i
