@@ -19,7 +19,7 @@ class ItemsController < ApplicationController
 		
 		@items.each do |item|
 			item.number = @i
-			@i += @i
+			@i += 1
 		end
 		
 	end
