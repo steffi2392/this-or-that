@@ -9,9 +9,9 @@
 			<ul>
 				<li class = "list_image">
 					<ul>
-						<li><%= image_tag(item.image_front) %></li>
+						<li><%= link_to image_tag(item.image_front), item.link, :target => "_blank" %></li>
 						<li class="list_rank"><%= item.number %></li>
-						<li class = "list_purchase"><%= link_to image_tag("buy_long.gif"), item.link, :target => "_blank" %></li>
+						
 					</ul>
 				</li>
 			</ul>
