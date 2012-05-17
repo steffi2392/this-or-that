@@ -176,32 +176,6 @@ div {
 	}
 }
 
-.list_image {
-	width: 180px;
-	float: left;
-	margin: 10px 0 10px 0;
-}
-
-.list_image img {
-	width: 200px;
-}
-
-.list_purchase {
-	position: relative;
-	left: 35px;
-	width: 170px;
-	overflow: hidden;
-	margin: auto;
-}
-
-.list_purchase img:hover {
-	position: relative;
-	left: -171px;
-}
-
-.list_purchase img {
-	width: 340px;
-}
 
 .left, .right {
 	position: relative;
@@ -286,6 +260,27 @@ div {
 	left: -150px;
 }
 
+
+// LIST PAGE
+
+.row {
+	position: relative;
+	width: 800px;
+	margin: auto;
+}
+
+.list_image {
+	width: 160px;
+	float: left;
+	margin: 10px 0 10px 0;
+}
+
+.list_image img {
+	width: 200px;
+	position: relative;
+	left: -20px;
+}
+
 .list_rank {
 	font-family: 'Quicksand', sans-serif;
 	width: 30px;
@@ -293,7 +288,3 @@ div {
 	background-color: #a3ffff;
 	position: absolute;
 }
-
-// LIST PAGE
-
-
