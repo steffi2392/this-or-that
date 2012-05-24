@@ -10,9 +10,10 @@
 			<li class = "left">
 				<ul class = "image">
 				<div class = "inner">
-
-				<img src="<%= @item1.image_front %>" alt="image" class="front"/>
-				<img src="<%= @item1.image_back %>" alt="image_back" class="back" />
+				<%= link_to image_tag(image_path(@item1.image_front)), @item1.link, :target => "_blank", :class => "front" %>
+				<%= link_to image_tag(image_path(@item1.image_back)), @item1.link, :target => "_blank", :class => "back" %>
+				<%= @item1.image_front %>
+				<%= @item1.image_back %>
 				
 				</div>
 				</ul>
