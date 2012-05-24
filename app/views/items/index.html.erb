@@ -10,8 +10,8 @@
 			<li class = "left">
 				<ul class = "image">
 				<div class = "inner">
-				<%= link_to image_tag custom_image_url(@item1.image_front), @item1.link, :target => "_blank", :class => "front" %>
-				<%= link_to image_tag custom_image_url(@item1.image_back), @item1.link, :target => "_blank", :class => "back" %>
+				<%= link_to image_tag(@item1.image_front), @item1.link, :target => "_blank", :class => "front" %>
+				<%= link_to image_tag(@item1.image_back), @item1.link, :target => "_blank", :class => "back" %>
 				</div>
 				</ul>
 				<ul>
@@ -24,8 +24,8 @@
 			<li class = "right">
 				<ul class = "image">
 				<div class = "inner">
-				<%= link_to image_tag custom_image_url(@item2.image_front), @item2.link, :target => "_blank", :class => "front" %>
-				<%= link_to image_tag custom_image_url(@item2.image_back), @item2.link, :target => "_blank", :class => "back" %>
+				<%= link_to image_tag(@item2.image_front), @item2.link, :target => "_blank", :class => "front" %>
+				<%= link_to image_tag(@item2.image_back), @item2.link, :target => "_blank", :class => "back" %>
 				</div>
 				</ul>
 				<ul>
