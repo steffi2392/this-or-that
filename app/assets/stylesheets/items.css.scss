@@ -218,7 +218,7 @@ div {
 	margin: auto;
 	width: 400px;
 	height: 60px;
-	display: block;
+	display: inline-block;
 	line-height: 80px;
 	vertical-align: middle;
 	
@@ -234,6 +234,7 @@ div {
 }
 
 #or {
+	display: inline-block;
 	position: relative;
 	width: 150px;
 	margin: auto;
