@@ -197,6 +197,9 @@ div {
 	width:200px;
 }
 
+.button {
+	float: left;
+}
 
 .button a{
 	font-size: 48px;
@@ -229,6 +232,7 @@ div {
 	margin: auto;
 	// top: 307px; // changed from 395
 	// left: -3px;
+	float: left;
 }
 
 #or img {
