@@ -12,6 +12,7 @@
 </head>
 <body id="<%= @body_id %>">
 
+<div class="header">
 <div class="button">
 	<%= link_to "THIS", @item1.link, :target => "_blank"%>
 </div>
@@ -20,6 +21,7 @@
 </div>
 <div class="button">
 	<%= link_to "THAT", @item2.link, :target => "_blank" %>
+</div>
 </div>
 
 <%= yield %>
