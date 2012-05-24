@@ -10,8 +10,8 @@
 			<li class = "left">
 				<ul class = "image">
 				<div class = "inner">
-				<%= link_to image_path(@item1.image_front), @item1.link, :target => "_blank", :class => "front" %>
-				<%= link_to image_path(@item1.image_back), @item1.link, :target => "_blank", :class => "back" %>
+				<%= link_to image_tag(image_path(@item1.image_front)), @item1.link, :target => "_blank", :class => "front" %>
+				<%= link_to image_tag(image_path(@item1.image_back)), @item1.link, :target => "_blank", :class => "back" %>
 				</div>
 				</ul>
 				<ul>
