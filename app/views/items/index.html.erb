@@ -10,28 +10,18 @@
 			<li class = "left">
 				<ul class = "image">
 				<div class = "inner">
-				<%= link_to image_tag(@item1.image_front), @item1.link, :target => "_blank", :class => "front" %>
-				<%= link_to image_tag(@item1.image_back), @item1.link, :target => "_blank", :class => "back" %>
+				<%= link_to image_tag(@item1.image_front), showleft_item_path(@item1), :method => :post, :class => "front" %>
+				<%= link_to image_tag(@item1.image_back), showleft_item_path(@item1), :method => :post, :class => "back" %>
 				</div>
-				</ul>
-				<ul>
-					<li class="button">
-						<%= link_to "THIS", showleft_item_path(@item1), :method => :post %>
-					</li>
 				</ul>
 			</li>
 
 			<li class = "right">
 				<ul class = "image">
 				<div class = "inner">
-				<%= link_to image_tag(@item2.image_front), @item2.link, :target => "_blank", :class => "front" %>
-				<%= link_to image_tag(@item2.image_back), @item2.link, :target => "_blank", :class => "back" %>
+				<%= link_to image_tag(@item2.image_front), showright_item_path(@item2), :method => :post, :class => "front" %>
+				<%= link_to image_tag(@item2.image_back), showright_item_path(@item2), :method => :post, :class => "back" %>
 				</div>
-				</ul>
-				<ul>
-					<li class="button">
-						<%= link_to "THAT", showright_item_path(@item2), :method => :post %>
-					</li>
 				</ul>
 			</li>
 		</ul>
