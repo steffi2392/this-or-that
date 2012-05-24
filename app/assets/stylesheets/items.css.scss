@@ -52,7 +52,7 @@ body#index {
 	z-index: 200;
 	position: absolute;
 	left: 5px;
-	overflow: hidden;
+	overflow: auto;
 }
 
 
@@ -232,7 +232,7 @@ div {
 }
 
 #or {
-	position: relative;
+	// position: relative;
 	width: 100px;
 	margin: auto;
 	// top: 307px; // changed from 395
