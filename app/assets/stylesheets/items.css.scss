@@ -51,8 +51,8 @@ body#index {
 	margin-bottom: 0px;
 	z-index: 200;
 	position: absolute;
-	left: 5px;
-	overflow: auto;
+	// left: 5px;
+	padding-top: 15px;
 }
 
 
@@ -204,20 +204,20 @@ div {
 
 .button {
 	position: relative;
-	width: 200px;
+	width: 400px;
 	margin: auto;
 }
 
 .button a{
-	font-size: 48px;
+	font-size: 96px;
 	font-family:"Special Elite", ‘Arial Black’, Gadget, sans-serif;	
 	color: #FFFFFF;
 	position: relative;
 	// top: 382px; // changed from 470
 	// left: -10px;
 	margin: auto;
-	width: 200px;
-	height: 50px;
+	width: 400px;
+	height: 10px;
 	display: block;
 	line-height: 65px;
 	vertical-align: middle;
@@ -235,14 +235,14 @@ div {
 
 #or {
 	position: relative;
-	width: 100px;
+	width: 200px;
 	margin: auto;
 	// top: 307px; // changed from 395
 	// left: -3px;
 }
 
 #or img {
-	width: 100px;
+	width: 200px;
 }
 
 #or img:hover {
