@@ -45,7 +45,7 @@ body#index {
 }
 
 .header {
-	width: 720px;
+	width: 680px;
 	margin: auto;
 	margin-top: 0px;
 	margin-bottom: 0px;
@@ -67,24 +67,14 @@ body#index {
 }
 
 .nav {
-	position: absolute;
-	top: 65px;
-	z-index: 201;
-	left: 440px;
 }
 
 .nav li{
 	display: inline;
-	width: 50px;
-	height: 30px;
-	margin: 0 10px 0 10px;
 }
 
 .nav a {
-	width: 50px;
-	height: 30px;
 	color: black; 
-	padding: 13px 10px 0px 10px;
 	font-family:"Special Elite", ‘Arial Black’, Gadget, sans-serif;
 }
 
@@ -218,10 +208,10 @@ div {
 	// top: 382px; // changed from 470
 	// left: -10px;
 	margin: auto;
-	width: 360px;
-	height: 60px;
+	width: 340px;
+	height: 90px;
 	display: inline-block;
-	line-height: 80px;
+	line-height: 90px;
 	vertical-align: middle;
 	
 	background-color: black;
@@ -239,7 +229,7 @@ div {
 	display: inline-block;
 	position: relative;
 	width: 150px;
-	margin-left: 350px;
+	margin-left: 330px;
 	z-index: 2;
 	top: -60px;
 }
