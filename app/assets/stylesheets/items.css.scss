@@ -50,7 +50,6 @@ body#index {
 	margin-top: 0px;
 	margin-bottom: 0px;
 	z-index: 200;
-	position: absolute;
 	// left: 5px;
 	padding-top: 15px;
 }
@@ -204,10 +203,11 @@ div {
 
 .button {
 	position: relative;
-	width: 380px;
 	z-index: 0;
 	float:left;
 	display: inline;
+	clear: none;
+	top: 15px;
 }
 
 .button a{
@@ -240,9 +240,9 @@ div {
 	position: relative;
 	width: 150px;
 	margin: auto;
-	// top: 307px; // changed from 395
-	left: 360px;
 	z-index: 2;
+	left: -10px;
+	top: -20px;
 }
 
 #or img {
