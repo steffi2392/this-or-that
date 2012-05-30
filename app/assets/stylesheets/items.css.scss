@@ -299,19 +299,12 @@ div {
 	left: -150px;
 }
 
-.buy {
-	top: 20px;
+.buy img{
+	width: 100px;
 }
 
-.buy a{
-	color: white;
-	background-color: black;
-	width: 200px;
-	height: 20px;
-}
-
-.buy a:hover {
-	color: #00ffcc;
+.buy a:hover{
+	opacity: .7;
 }
 
 
