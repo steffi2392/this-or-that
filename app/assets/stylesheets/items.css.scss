@@ -74,7 +74,9 @@ body#index {
 .nav li{
 	//display: inline;
 	margin: 0 auto 0 auto;
-	width: 100px;
+	width: 200px;
+	text-align: center;
+	top: 15px;
 
 }
 
@@ -278,6 +280,9 @@ div {
 
 .purchase img:hover {
 	left: -150px;
+}
+
+.buy {
 }
 
 
