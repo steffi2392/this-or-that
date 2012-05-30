@@ -90,9 +90,10 @@ body#index {
 
 #rankings a{
 	position: relative;
+	margin: auto;
 	clear: both;
-	width: 100px;
-	height: 30px;
+	width: 150px;
+	height: 50px;
 	font-family:"Special Elite", ‘Arial Black’, Gadget, sans-serif;
 	font-size: 24px;
 	font-align: center;
@@ -103,9 +104,11 @@ body#index {
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
 	border-radius: 5px;
+	clear: both;
+	
 }
 
-#rankings a {
+#rankings a:hover {
 	opacity: .7;
 }
 
@@ -255,6 +258,10 @@ div {
 	border-radius: 5px;
 }
 
+.button a, .button a:hover {
+	color: white;
+}
+
 #this {
 	text-align: left;
 	padding-left: 40px;
@@ -300,7 +307,8 @@ div {
 }
 
 .buy img{
-	width: 100px;
+	width: 30px;
+	opacity: 1;
 }
 
 .buy a:hover{
