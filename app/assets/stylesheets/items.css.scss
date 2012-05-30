@@ -72,41 +72,26 @@ body#index {
 }
 
 .nav li{
-	display: inline;
-	width: 300px;
-	height: 30px;
-	background-color: #00ffcc;
+	//display: inline;
+	margin: 0 auto 0 auto;
+	width: 100px;
+
 }
 
 #play {
-	float: left;
-	-webkit-top-right-border-radius: 5px;
-	-moz-border-radius-topright: 5px;
-	border-top-right-radius: 5px;
-	
-	-webkit-bottom-right-border-radius: 5px;
-	-moz-border-radius-bottomright: 5px;
-	border-bottom-right-radius: 5px;
+
 }
 
 #play a {
-	text-align: right;
+	
 }
 
 #rankings {
-	float: right;
-	
-	-webkit-top-left-border-radius: 5px;
-	-moz-border-radius-topleft: 5px;
-	border-top-left-radius: 5px;
-	
-	-webkit-bottom-left-border-radius: 5px;
-	-moz-border-radius-bottomleft: 5px;
-	border-bottom-left-radius: 5px;
+
 }
 
 #rankings a {
-	text-align: right;
+	
 }
 
 .nav a {
@@ -115,8 +100,8 @@ body#index {
 }
 
 .nav a:hover {
-	color: black;
-	background-color: #13efc3;
+	color: white;
+	background-color: black;
 	//opacity: 0.8;
 }
 
@@ -162,7 +147,7 @@ div {
 	margin: auto;
 	position: absolute;
 	//top: 92px; // changed from 115
-	left: 120px;
+	left: 100px;
 }
 
 .front {
