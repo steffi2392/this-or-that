@@ -89,10 +89,14 @@ body#index {
 }
 
 #rankings {
-	position: relative;
+	position: absolute;
 	margin: auto;
 	clear: both;
 	width: 150px;
+	
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
 }
 
 #rankings img {
@@ -297,8 +301,13 @@ div {
 	left: -150px;
 }
 
+.buy {
+	position: absolute;
+	z-index: 5;
+}
+
 .buy img{
-	width: 30px;
+	width: 50px;
 	opacity: 1;
 }
 
