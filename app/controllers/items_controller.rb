@@ -1,17 +1,23 @@
 class ItemsController < ApplicationController
 
 	def index 
-		@body_id = "index"
-		@items = Item.all
+		if (params["user_id"] == [])
+			redirect_to "https://www.facebook.com/dialog/oauth?client_id=389450951093631&redirect_uri=https://apps.facebook.com/nm_thisorthat/"
+		else
 		
-		num1 = 1 + rand(@items.count)
+			@body_id = "index"
+			@items = Item.all
 		
-		begin
-			num2 = 1 + rand(@items.count) 
-		end while num2 == num1
+			num1 = 1 + rand(@items.count)
 		
-		@item1 = Item.find(num1)
-		@item2 = Item.find(num2)
+			begin
+				num2 = 1 + rand(@items.count) 
+			end while num2 == num1
+		
+			@item1 = Item.find(num1)
+			@item2 = Item.find(num2)
+		
+		end
 	end
 	
 	def list
