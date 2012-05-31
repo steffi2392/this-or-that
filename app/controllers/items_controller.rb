@@ -1,8 +1,10 @@
 class ItemsController < ApplicationController
-	before_filter :parse_data
-	before_filter :require_added
+	before_filter :parse_data, :only => [:index]
+	before_filter :require_added, :only => [:index]
 
 	def index 
+	
+			get_info()
 
 			@body_id = "index"
 			@items = Item.all
@@ -112,6 +114,17 @@ class ItemsController < ApplicationController
 	    #The existance of an oauth token means the user has given permission to the app.
 	    @oauth_token = @signed_data["oauth_token"]
 	
+	  end
+	  
+	  def get_info 
+	  	APP_ID = "389450951093631"
+	  	APP_SECRET = "39546178307aae315353100300077729"
+	  	
+	  	use OmniAuth::Builder do
+	  	  provider :facebook, APP_ID, APP_SECRET
+	  	end
+	  	
+	  	@info = request.env['omniauth.auth']
 	  end
 
 
