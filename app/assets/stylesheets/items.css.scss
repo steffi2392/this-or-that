@@ -35,6 +35,7 @@ body#index {
 	position: relative; 
 	width: 810px;
 	margin: auto;
+	top: 100px;
 }
 
 .container_index {
@@ -236,7 +237,7 @@ div {
 	float:left;
 	display: inline;
 	clear: none;
-	//top: 35px;
+	top: 35px;
 
 	font-size: 72px;
 	font-family:"Special Elite", ‘Arial Black’, Gadget, sans-serif;	
@@ -264,12 +265,14 @@ div {
 	text-align: left;
 	padding-left: 40px;
 	color: white;
+	left: 50px;
 }
 
 #that {
 	text-align: right;
 	padding-right: 40px;
 	color: white;
+	left: 250px;
 }
 
 #or {
