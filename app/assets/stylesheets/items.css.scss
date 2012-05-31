@@ -90,6 +90,8 @@ body#index {
 
 #rankings {
 	position: absolute;
+	top: 400px;
+	left: 300px;
 	margin: auto;
 	clear: both;
 	width: 150px;
@@ -303,6 +305,7 @@ div {
 
 .buy {
 	position: absolute;
+	top: 15px;
 	z-index: 5;
 }
 
@@ -313,6 +316,14 @@ div {
 
 .buy a:hover{
 	opacity: .7;
+}
+
+#this {
+	left: 30px;
+}
+
+#that {
+	left: 500px;
 }
 
 
