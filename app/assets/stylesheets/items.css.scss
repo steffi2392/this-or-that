@@ -93,23 +93,10 @@ body#index {
 	margin: auto;
 	clear: both;
 	width: 150px;
-	height: 50px;
-	background-color: black;
 }
 
-#rankings a{
-	font-family:"Special Elite", ‘Arial Black’, Gadget, sans-serif;
-	font-align: center;
-	color: white;
-	opacity: 1.0;
+#rankings img {
 	width: 150px;
-	height: 50px;
-	
-	-webkit-border-radius: 5px;
-	-moz-border-radius: 5px;
-	border-radius: 5px;
-	clear: both;
-	
 }
 
 #rankings a:hover {
