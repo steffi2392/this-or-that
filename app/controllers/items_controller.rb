@@ -1,10 +1,8 @@
 class ItemsController < ApplicationController
+	before_filter :require_added
 
 	def index 
-		if (params["user_id"].to_s.blank?)
-			render :text=>%|<script>window.top.location.href = "https://graph.facebook.com/oauth/authorize?client_id=389450951093631&redirect_uri=https://apps.facebook.com/nm_thisorthat/";</script>|
-		else
-		
+
 			@body_id = "index"
 			@items = Item.all
 		
@@ -17,7 +15,7 @@ class ItemsController < ApplicationController
 			@item1 = Item.find(num1)
 			@item2 = Item.find(num2)
 		
-		end
+		
 	end
 	
 	def list
@@ -79,6 +77,14 @@ class ItemsController < ApplicationController
 		loser.update_attribute(:rank, @loser_newrank)
 	end
 	
+	def require_added
+		if (params["user_id"].to_s.blank?)
+			render :text=>%|<script>window.top.location.href = "https://graph.facebook.com/oauth/authorize?client_id=389450951093631&redirect_uri=https://apps.facebook.com/nm_thisorthat/";</script>|
+			return false
+		end
+		true
+		
+	end
 
 
 end
