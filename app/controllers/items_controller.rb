@@ -116,11 +116,7 @@ class ItemsController < ApplicationController
 	
 	  end
 	  
-	  def get_info 
-	  	
-	  	use OmniAuth::Builder do
-	  	  provider :facebook, "389450951093631", "39546178307aae315353100300077729"
-	  	end
+	  def get_info
 	  	
 	  	@info = request.env['omniauth.auth']
 	  end
