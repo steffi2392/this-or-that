@@ -4,7 +4,7 @@ class ItemsController < ApplicationController
 
 	def index 
 	
-			get_info()
+			@info = get_info()
 
 			@body_id = "index"
 			@items = Item.all
@@ -118,7 +118,7 @@ class ItemsController < ApplicationController
 	  
 	  def get_info
 	  	
-	  	@info = request.env['omniauth.auth']
+	  	return request.env['omniauth.auth']
 	  end
 
 
