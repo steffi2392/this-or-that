@@ -164,7 +164,7 @@ div {
 	height: 450px;
 	margin: auto;
 	position: absolute;
-	top: -70px;
+	//top: -70px;
 	left: 100px;
 }
 
@@ -231,12 +231,12 @@ div {
 }
 
 .button {
-	position: relative;
+	position: absolute;
 	z-index: 0;
 	float:left;
 	display: inline;
 	clear: none;
-	top: 35px;
+	//top: 35px;
 
 	font-size: 72px;
 	font-family:"Special Elite", ‘Arial Black’, Gadget, sans-serif;	
@@ -278,7 +278,7 @@ div {
 	width: 150px;
 	margin-left: 330px;
 	z-index: 2;
-	top: -75px;
+	//top: -75px;
 }
 
 #or img {
