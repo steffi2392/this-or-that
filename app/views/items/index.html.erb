@@ -3,7 +3,7 @@
 <div class="container_index">
 
 
-	<p>test: <%= @info %></p>
+	<p>test: <%= request.env['omniauth.auth']%></p>
 	
 	<div class="mash">
 		<ul> 
