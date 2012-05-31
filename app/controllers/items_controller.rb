@@ -1,7 +1,7 @@
 class ItemsController < ApplicationController
 
 	def index 
-		if (params["user_id"] == [])
+		if (params["user_id"].to_s.blank?)
 			redirect_to "https://www.facebook.com/dialog/oauth?client_id=389450951093631&redirect_uri=https://apps.facebook.com/nm_thisorthat/"
 		else
 		
