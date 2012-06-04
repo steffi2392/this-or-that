@@ -309,7 +309,34 @@ div {
 }
 
 .buy {
-	background: url(<%= asset_data_uri('buythat.png') %>);
+	position: absolute;
+	top: 325px;
+	z-index: 5;
+}
+
+#buy_hover {
+	
+}
+
+.buy img{
+	width: 50px;
+	opacity: 1;
+	position: absolute;
+}
+
+.buy a:hover{
+	opacity: .7;
+	
+}
+
+#buythis {
+	left: 30px;
+	position: absolute;
+}
+
+#buythat {
+	left: 520px;
+	position: absolute
 }
 
 
