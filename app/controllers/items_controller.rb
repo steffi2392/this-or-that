@@ -19,9 +19,9 @@ class ItemsController < ApplicationController
 			
 			@pageurl = "https://www.facebook.com/NicoleMiller/app_389450951093631"
 			
-			@item1_pin = "http://pinterest.com/pin/create/button/?url=" + @pageurl + "&media=" + image_url(@item1.image_front) + "&description=DESCRIPTION"
+			@item1_pin = "http://pinterest.com/pin/create/button/?url=" + @pageurl + "&media=" + view_context.asset_path(@item1.image_front) + "&description=DESCRIPTION"
 			
-			@item2_pin = "http://pinterest.com/pin/create/button/?url=" + @pageurl + "&media=" + image_url(@item2.image_front) + "&description=DESCRIPTION"
+			@item2_pin = "http://pinterest.com/pin/create/button/?url=" + @pageurl + "&media=" + view_context.asset_path(@item2.image_front) + "&description=DESCRIPTION"
 		
 		
 	end
