@@ -309,7 +309,7 @@ div {
 }
 
 .buy {
-	background: url( <%= image-path('buythat.png') %> )
+	background: url(<%= asset_data_uri('buythat.png') %>);
 }
 
 
