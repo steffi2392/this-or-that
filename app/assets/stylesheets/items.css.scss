@@ -170,15 +170,7 @@ div {
 	left: 100px;
 }
 
-.left {
-	position: relative;
-	left: 20px;
-}
 
-.right {
-	position: relative;
-	left: -50px;
-}
 
 .front {
 	position: absolute;
@@ -238,8 +230,12 @@ div {
 	width:200px;
 }
 
+.left {
+	left: 20px;
+}
+
 .right {
-	left: 300px;
+	left: 280px;
 }
 
 .button {
