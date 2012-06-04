@@ -314,6 +314,10 @@ div {
 	z-index: 5;
 }
 
+#buy_hover {
+	visibility: hidden;
+}
+
 .buy img{
 	width: 50px;
 	opacity: 1;
@@ -322,6 +326,11 @@ div {
 
 .buy a:hover{
 	opacity: .7;
+	
+	#buy_hover {
+		visibility: visible;
+	}
+	
 }
 
 #buythis {
@@ -333,6 +342,8 @@ div {
 	left: 520px;
 	position: absolute
 }
+
+
 
 
 // LIST PAGE
