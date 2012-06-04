@@ -21,6 +21,17 @@
 			<div class="pinterest">
 				<a href= <%= @item1_pin %> class="pin-it-button" count-layout="horizontal"><img border="0" src="//assets.pinterest.com/images/PinExt.png" title="Pin It" /></a>
 			</div>
+			
+			<a href='javascript:void(run_pinmarklet1())'><img src="http://2.bp.blogspot.com/-lRae8bdMpuA/TzuLrnycXaI/AAAAAAAACQE/YVYUjfs7dm8/s1600/pinmask2.png" style='margin:0; padding:0; border:none;'/></a>
+			<script type='text/javascript'>
+			function run_pinmarklet1() {
+			  var e=document.createElement('script');
+			  e.setAttribute('type','text/javascript');
+			  e.setAttribute('charset','UTF-8');
+			  e.setAttribute('src','http://assets.pinterest.com/js/pinmarklet.js?r='+Math.random()*99999999);
+			  document.body.appendChild(e);
+			}
+			</script>
 
 			<li class = "right">
 				<ul class = "image">
