@@ -317,6 +317,7 @@ div {
 .buy img{
 	width: 50px;
 	opacity: 1;
+	position: absolute;
 }
 
 .buy a:hover{
@@ -325,10 +326,12 @@ div {
 
 #buythis {
 	left: 30px;
+	position: absolute;
 }
 
 #buythat {
 	left: 520px;
+	position: absolute
 }
 
 
