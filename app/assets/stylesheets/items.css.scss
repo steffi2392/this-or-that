@@ -316,12 +316,9 @@ div {
 	z-index: 5;
 }
 
-#buy_hover {
-	visibility: hidden;
-}
 
-#buy_hover:hover {
-	visibility: visible;
+.buy img:hover {
+	top: -50px;
 }
 
 .buy img{
