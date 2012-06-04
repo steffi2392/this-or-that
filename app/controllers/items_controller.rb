@@ -17,11 +17,6 @@ class ItemsController < ApplicationController
 			@item1 = Item.find(num1)
 			@item2 = Item.find(num2)
 			
-			@pageurl = "https://www.facebook.com/NicoleMiller/app_389450951093631"
-			
-			@item1_pin = "http://pinterest.com/pin/create/button/?url=" + @pageurl + "&media=" + view_context.asset_path(@item1.image_front) + "&description=DESCRIPTION"
-			
-			@item2_pin = "http://pinterest.com/pin/create/button/?url=" + @pageurl + "&media=" + view_context.asset_path(@item2.image_front) + "&description=DESCRIPTION"
 		
 		
 	end
