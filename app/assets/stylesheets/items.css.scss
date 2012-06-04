@@ -320,6 +320,10 @@ div {
 	visibility: hidden;
 }
 
+#buy_hover:hover {
+	visibility: visible;
+}
+
 .buy img{
 	width: 50px;
 	opacity: 1;
@@ -331,12 +335,7 @@ div {
 	height: 50px;
 }
 
-.buy a:hover{
-	opacity: .7;
-	#buy_hover {
-		visibility: visible;
-	}
-}
+
 
 #buythis {
 	left: 30px;
