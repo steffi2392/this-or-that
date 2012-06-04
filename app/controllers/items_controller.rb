@@ -1,6 +1,5 @@
 class ItemsController < ApplicationController
-	before_filter :parse_data, :only => [:index]
-	before_filter :require_added, :only => [:index]
+	
 
 	def index 
 	
