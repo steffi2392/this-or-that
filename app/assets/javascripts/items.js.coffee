@@ -2,3 +2,7 @@
 # All this logic will automatically be available in application.js.
 # You can use CoffeeScript in this file: http://jashkenas.github.com/coffee-script/
 
+$('.buy').hover(
+  -> $('this').children('#buy_hover').css("visibility", "visible")
+  -> $('this').children('#buy_hover').css("visibility", "hidden")
+)
