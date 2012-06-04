@@ -18,20 +18,9 @@
 			<div class="buy" id="buythis">
 				<%= link_to image_tag('buythis.png'), @item1.link, :target => 'blank' %>
 			</div>
-			<div class="pinterest">
-				<a href= <%= @item1_pin %> class="pin-it-button" count-layout="horizontal"><img border="0" src="//assets.pinterest.com/images/PinExt.png" title="Pin It" /></a>
-			</div>
-			
-			<a href='javascript:void(run_pinmarklet1())'><img src="http://2.bp.blogspot.com/-lRae8bdMpuA/TzuLrnycXaI/AAAAAAAACQE/YVYUjfs7dm8/s1600/pinmask2.png" style='margin:0; padding:0; border:none;'/></a>
-			<script type='text/javascript'>
-			function run_pinmarklet1() {
-			  var e=document.createElement('script');
-			  e.setAttribute('type','text/javascript');
-			  e.setAttribute('charset','UTF-8');
-			  e.setAttribute('src','http://assets.pinterest.com/js/pinmarklet.js?r='+Math.random()*99999999);
-			  document.body.appendChild(e);
-			}
-			</script>
+
+			<a href="http://pinterest.com/pin/create/button/?url=https%3A%2F%2Fwww.facebook.com%2FNicoleMiller%2Fapp_389450951093631&media=https%3A%2F%2Fwarm-mountain-8218.herokuapp.com%2Fassets%2F2808_blue_b.jpg" class="pin-it-button" count-layout="horizontal"><img border="0" src="//assets.pinterest.com/images/PinExt.png" title="Pin It" /></a>
+
 
 			<li class = "right">
 				<ul class = "image">
@@ -44,9 +33,7 @@
 			<div class="buy" id="buythat">
 				<%= link_to image_tag('buythat.png'), @item2.link, :target => 'blank' %>
 			</div>
-			<div class="pinterest">
-				<a href= <%= @item2_pin %> class="pin-it-button" count-layout="horizontal"><img border="0" src="//assets.pinterest.com/images/PinExt.png" title="Pin It" /></a>
-			</div>
+
 		</ul>
 	</div>
 	<div id="rankings"><%= link_to image_tag('seeRankings.png'), list_items_path %>
