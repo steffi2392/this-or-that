@@ -93,7 +93,7 @@ body#index {
 
 #rankings {
 	position: absolute;
-	top: 540px;
+	top: 560px;
 	left: 330px;
 	margin: auto;
 	clear: both;
@@ -256,14 +256,14 @@ div {
 .middle_or img {
 	width: 70px;
 	position: absolute;
-	top: 170px;
+	top: 150px;
 	left: 265px;
 	z-index: 400;
 	display: block;
 	
-	-moz-transform: rotate(300deg);
-	-webkit-transform: rotate(300deg);
-	transform: rotate(300deg);
+	-moz-transform: rotate(330deg);
+	-webkit-transform: rotate(330deg);
+	transform: rotate(330deg);
 }
 
 .button {
