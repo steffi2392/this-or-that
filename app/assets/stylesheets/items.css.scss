@@ -257,8 +257,13 @@ div {
 	width: 70px;
 	position: absolute;
 	top: 170px;
-	left: 270px;
+	left: 265px;
 	z-index: 400;
+	display: block;
+	
+	-moz-transform: rotate(300deg);
+	-webkit-transform: rotate(300deg);
+	transform: rotate(300deg);
 }
 
 .button {
