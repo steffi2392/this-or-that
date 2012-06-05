@@ -404,7 +404,7 @@ div {
 	height: 40px;
 	background-color: #61dae2;
 	
-	//float: left;
+	float: left;
 	position: relative;
 	
 	z-index:400;
@@ -429,6 +429,8 @@ div {
 	top: -282px;
 	left: 105px;
 	display: block;
+	
+	float: left;
 }
 
 
