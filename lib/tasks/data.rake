@@ -2,7 +2,7 @@ desc "Import data."
 task :import_data => :environment do
 	require 'rubygems'
 	require 'spreadsheet'
-	workbook = Spreadsheet.open("data_bitly.xls")
+	workbook = Spreadsheet.open("data_analytics.xls")
 	worksheet = workbook.worksheet(0)
 	
 	0.upto worksheet.last_row_index do |index|
